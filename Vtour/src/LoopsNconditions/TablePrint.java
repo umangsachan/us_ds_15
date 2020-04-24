@@ -11,6 +11,7 @@ public class TablePrint {
 		number = sc.nextInt();
 		for(i=1; i<=10; i++)
 		{
+			
 			table = number*i;
 			System.out.println(number +"*"+ i +"="+table);
 		}
